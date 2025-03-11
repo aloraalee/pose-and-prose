@@ -29,9 +29,11 @@ jobs:
         run: npm run build -- --configuration=production
 
       - name: Run Cypress tests
+        if: hashFiles('cypress/e2e/**/*.cy.{js,jsx,ts,tsx}') != ''
         uses: cypress-io/github-action@v6
         with:
           build: npm run build -- --configuration=production
           start: npm run start
           wait-on: 'http://localhost:4200'
+          wait-on-timeout: 120
           browser: chrome
