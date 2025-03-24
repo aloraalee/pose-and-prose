@@ -2,6 +2,21 @@
 
 This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 19.2.1.
 
+## Installation
+1. Clone the repo 
+```
+git clone https://github.com/aloraalee/pose-and-prose.git
+```
+2. Install NPM packages
+```
+npm install
+```
+3. Change git remote url to avoide accidental pushes to base project
+```
+git remote set-url origin github_username/repo_name
+git remote -v # confirm the changes
+```
+
 ## Development server
 
 To start a local development server, run:
