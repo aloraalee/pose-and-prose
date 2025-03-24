@@ -15,10 +15,14 @@ Once the server is running, open your browser and navigate to `http://localhost:
 ## Styling
 
 ### Colors
-#### background color #F6EBCF
-#### section background color #ECCDBC
-#### orange from logo #F1A359
-#### buttons #A4C3BD
+#### background color 
+`#F6EBCF`
+#### section background color 
+`#ECCDBC`
+#### orange from logo 
+`#F1A359`
+#### buttons 
+`#A4C3BD`
 
 <!-- ## Code scaffolding
 
