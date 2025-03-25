@@ -1,6 +1,21 @@
-# PoseAndProse
+# Pose And Prose
 
 This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 19.2.1.
+
+## Installation
+1. Clone the repo 
+```
+git clone https://github.com/aloraalee/pose-and-prose.git
+```
+2. Install NPM packages
+```
+npm install
+```
+3. Change git remote url to avoide accidental pushes to base project
+```
+git remote set-url origin github_username/repo_name
+git remote -v # confirm the changes
+```
 
 ## Development server
 
@@ -12,7 +27,19 @@ ng serve
 
 Once the server is running, open your browser and navigate to `http://localhost:4200/`. The application will automatically reload whenever you modify any of the source files.
 
-## Code scaffolding
+## Styling
+
+### Colors
+#### background color 
+`#F6EBCF`
+#### section background color 
+`#ECCDBC`
+#### orange from logo 
+`#F1A359`
+#### buttons 
+`#A4C3BD`
+
+<!-- ## Code scaffolding
 
 Angular CLI includes powerful code scaffolding tools. To generate a new component, run:
 
@@ -56,4 +83,4 @@ Angular CLI does not come with an end-to-end testing framework by default. You c
 
 ## Additional Resources
 
-For more information on using the Angular CLI, including detailed command references, visit the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+For more information on using the Angular CLI, including detailed command references, visit the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page. -->
